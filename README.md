@@ -1,4 +1,4 @@
-# This website is the work of the weSTEM website development team.
+# This website is for the first STAR project from May to October. 
 
 ##
 Before you begin, install node through terminal. You only have to do this once, so if you already have node/npm on your computer, you don't need to complete this step. 
