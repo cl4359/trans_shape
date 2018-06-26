@@ -1,6 +1,6 @@
 webpackJsonp([13],{
 
-/***/ 642:
+/***/ 643:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PaymentPageModule", function() { return PaymentPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__payment__ = __webpack_require__(676);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__payment__ = __webpack_require__(677);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var PaymentPageModule = (function () {
 
 /***/ }),
 
-/***/ 676:
+/***/ 677:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -112,7 +112,7 @@ var PaymentPage = (function () {
     };
     PaymentPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-payment',template:/*ion-inline-start:"/Users/chaerinlim/Desktop/28days-master/src/pages/payment/payment.html"*/'<!--\n  Generated template for the PaymentPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="daysgreen">\n    <ion-title>멤버십 결제하기</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-card class="cards-bg">\n    <ion-card-content>\n      <div>\n        <p class="alignleft">{{ itemName + "" }}</p>\n        <p class="alignright">{{ itemPrice + "" }}원</p>\n      </div>\n      <div style="clear: both;"></div>\n      <ion-card class="cards-white">\n        <ion-card-content>\n          <p>혜택</p>\n          <p class="textcontent">28일 동안 선택한 서포터에게 횟수에 제한 없이 무제한으로 대화를 진행</p>\n        </ion-card-content>\n      </ion-card>\n    </ion-card-content>\n  </ion-card>  \n\n  <ion-card class="cards-bg">\n    <ion-card-content>\n      <p>쿠폰 적용</p>\n      <button></button>\n      <hr width="100%">\n      <div class="alignright">\n        <p>적용</p>\n        \n      </div>\n    </ion-card-content>\n  </ion-card>\n\n  <ion-card class="cards-bg">\n    <ion-card-content>\n      <div>\n        <p class="alignleft">멤버십 금액</p>\n        <p class="alignright">{{ itemPrice + "" }}원</p>\n      </div>\n      <hr width="100%">\n      <div>\n        <p class="alignleft">할인 금액</p>\n        <p class="alignright">{{ discountPrice + "" }}원</p>\n      </div>\n      <hr width="100%">\n      <div>\n        <p class="alignleft green">결제 금액</p>\n        <p class="alignright green">{{ totalPrice + "" }}원</p>\n      </div>\n      <hr width="100%">\n    </ion-card-content>\n  </ion-card>\n\n  <ion-card class="cards-bg">\n    <ion-card-content>\n      <p>결제 수단 선택</p>\n      <label class="methodContainer">카드 결제\n        <input type="radio" checked="checked" name="paymentMethod" value="card">\n        <span class="checkmark"></span>\n      </label>\n      <label class="methodContainer">무통장 입금\n        <input type="radio" name="paymentMethod" value="trans">\n        <span class="checkmark"></span>\n      </label>\n    </ion-card-content>\n  </ion-card>\n\n  <button ion-button block color="daysgreen" (click)="payment()">\n    결제하기\n  </button>\n</ion-content>\n'/*ion-inline-end:"/Users/chaerinlim/Desktop/28days-master/src/pages/payment/payment.html"*/,
+            selector: 'page-payment',template:/*ion-inline-start:"/Users/chaerinlim/Desktop/28days/src/pages/payment/payment.html"*/'<!--\n  Generated template for the PaymentPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="daysgreen">\n    <ion-title>멤버십 결제하기</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-card class="cards-bg">\n    <ion-card-content>\n      <div>\n        <p class="alignleft">{{ itemName + "" }}</p>\n        <p class="alignright">{{ itemPrice + "" }}원</p>\n      </div>\n      <div style="clear: both;"></div>\n      <ion-card class="cards-white">\n        <ion-card-content>\n          <p>혜택</p>\n          <p class="textcontent">28일 동안 선택한 서포터에게 횟수에 제한 없이 무제한으로 대화를 진행</p>\n        </ion-card-content>\n      </ion-card>\n    </ion-card-content>\n  </ion-card>  \n\n  <ion-card class="cards-bg">\n    <ion-card-content>\n      <p>쿠폰 적용</p>\n      <button></button>\n      <hr width="100%">\n      <div class="alignright">\n        <p>적용</p>\n        \n      </div>\n    </ion-card-content>\n  </ion-card>\n\n  <ion-card class="cards-bg">\n    <ion-card-content>\n      <div>\n        <p class="alignleft">멤버십 금액</p>\n        <p class="alignright">{{ itemPrice + "" }}원</p>\n      </div>\n      <hr width="100%">\n      <div>\n        <p class="alignleft">할인 금액</p>\n        <p class="alignright">{{ discountPrice + "" }}원</p>\n      </div>\n      <hr width="100%">\n      <div>\n        <p class="alignleft green">결제 금액</p>\n        <p class="alignright green">{{ totalPrice + "" }}원</p>\n      </div>\n      <hr width="100%">\n    </ion-card-content>\n  </ion-card>\n\n  <ion-card class="cards-bg">\n    <ion-card-content>\n      <p>결제 수단 선택</p>\n      <label class="methodContainer">카드 결제\n        <input type="radio" checked="checked" name="paymentMethod" value="card">\n        <span class="checkmark"></span>\n      </label>\n      <label class="methodContainer">무통장 입금\n        <input type="radio" name="paymentMethod" value="trans">\n        <span class="checkmark"></span>\n      </label>\n    </ion-card-content>\n  </ion-card>\n\n  <button ion-button block color="daysgreen" (click)="payment()">\n    결제하기\n  </button>\n</ion-content>\n'/*ion-inline-end:"/Users/chaerinlim/Desktop/28days/src/pages/payment/payment.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* Platform */]])
     ], PaymentPage);

@@ -1,6 +1,6 @@
 webpackJsonp([28],{
 
-/***/ 625:
+/***/ 627:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CommunitygroupPageModule", function() { return CommunitygroupPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__communitygroup__ = __webpack_require__(659);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__communitygroup__ = __webpack_require__(661);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var CommunitygroupPageModule = (function () {
 
 /***/ }),
 
-/***/ 659:
+/***/ 661:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -114,7 +114,7 @@ var CommunitygroupPage = (function () {
     ], CommunitygroupPage.prototype, "content", void 0);
     CommunitygroupPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-communitygroup',template:/*ion-inline-start:"/Users/chaerinlim/Desktop/28days-master/src/pages/communitygroup/communitygroup.html"*/'<!--\n  Generated template for the CommunitygroupPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n	<ion-navbar color="daysgreen">\n		<ion-title>{{ title }}</ion-title>\n	</ion-navbar>\n\n</ion-header>\n\n\n<ion-content #content>\n\n	<ul>\n		<li *ngFor="let post of posts">\n			<div class="post">\n				<div class="name">\n					<span>{{ post.username }}</span>\n					<button>\n						<ion-icon name="more" color="gray"></ion-icon>\n					</button>\n				</div>\n				<div class="picture" *ngIf="post.url">\n					<img src="{{ post.url }}">\n				</div>\n				<div class="group-time">\n					<span class="group">{{ title }}</span>\n					<span class="time">{{ post.timestamp | date:\'yyyy.MM.dd a hh:mm\' }}</span>\n				</div>\n				<div class="text">\n					<p>{{ post.text }}</p>\n				</div>\n				<div class="comment-like">\n					<button class="comment" (click)="comment(post)">\n						<div>\n							<img src="assets/comment.png">\n							<span>{{ post.comment }}</span>\n						</div>\n					</button>\n					<button class="like" (click)="like(post)">\n						<div>\n							<img src="{{ post.likesrc }}">\n							<span>{{ post.like }}</span>\n						</div>\n					</button>\n				</div>\n			</div>\n		</li>\n	</ul>\n\n</ion-content>\n\n<ion-footer>\n	<button ion-button full color="gray" (click)="communitywrite()">글쓰기</button>\n</ion-footer>\n'/*ion-inline-end:"/Users/chaerinlim/Desktop/28days-master/src/pages/communitygroup/communitygroup.html"*/,
+            selector: 'page-communitygroup',template:/*ion-inline-start:"/Users/chaerinlim/Desktop/28days/src/pages/communitygroup/communitygroup.html"*/'<!--\n  Generated template for the CommunitygroupPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n	<ion-navbar color="daysgreen">\n		<ion-title>{{ title }}</ion-title>\n	</ion-navbar>\n\n</ion-header>\n\n\n<ion-content #content>\n\n	<ul>\n		<li *ngFor="let post of posts">\n			<div class="post">\n				<div class="name">\n					<span>{{ post.username }}</span>\n					<button>\n						<ion-icon name="more" color="gray"></ion-icon>\n					</button>\n				</div>\n				<div class="picture" *ngIf="post.url">\n					<img src="{{ post.url }}">\n				</div>\n				<div class="group-time">\n					<span class="group">{{ title }}</span>\n					<span class="time">{{ post.timestamp | date:\'yyyy.MM.dd a hh:mm\' }}</span>\n				</div>\n				<div class="text">\n					<p>{{ post.text }}</p>\n				</div>\n				<div class="comment-like">\n					<button class="comment" (click)="comment(post)">\n						<div>\n							<img src="assets/comment.png">\n							<span>{{ post.comment }}</span>\n						</div>\n					</button>\n					<button class="like" (click)="like(post)">\n						<div>\n							<img src="{{ post.likesrc }}">\n							<span>{{ post.like }}</span>\n						</div>\n					</button>\n				</div>\n			</div>\n		</li>\n	</ul>\n\n</ion-content>\n\n<ion-footer>\n	<button ion-button full color="gray" (click)="communitywrite()">글쓰기</button>\n</ion-footer>\n'/*ion-inline-end:"/Users/chaerinlim/Desktop/28days/src/pages/communitygroup/communitygroup.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_community_community__["a" /* CommunityProvider */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_3__providers_communitycomment_communitycomment__["a" /* CommunitycommentProvider */]])

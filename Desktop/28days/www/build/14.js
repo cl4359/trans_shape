@@ -69,7 +69,7 @@ var MysettingPage = (function () {
     }
     MysettingPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-mysetting',template:/*ion-inline-start:"/Users/chaerinlim/Desktop/28days-master/src/pages/mysetting/mysetting.html"*/'<!--\n  Generated template for the MysettingPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/chaerinlim/Desktop/28days-master/src/pages/mysetting/mysetting.html"*/,
+            selector: 'page-mysetting',template:/*ion-inline-start:"/Users/chaerinlim/Desktop/28days/src/pages/mysetting/mysetting.html"*/'<!--\n  Generated template for the MysettingPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/chaerinlim/Desktop/28days/src/pages/mysetting/mysetting.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */]])
     ], MysettingPage);

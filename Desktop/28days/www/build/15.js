@@ -68,7 +68,7 @@ var MypagePage = (function () {
     }
     MypagePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-mypage',template:/*ion-inline-start:"/Users/chaerinlim/Desktop/28days-master/src/pages/mypage/mypage.html"*/'<!--\n  Generated template for the MychatsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="daysgreen">\n    <ion-title>나의 페이지</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n	<ion-tabs color="daysgreen" tabsPlacement="top">\n	  <ion-tab [root]="tab1" tabTitle="채팅기록"></ion-tab>\n	  <ion-tab [root]="tab2" tabTitle="보관소"></ion-tab>\n	  <ion-tab [root]="tab3" tabTitle="세팅"></ion-tab>\n	</ion-tabs>\n\n</ion-content>\n'/*ion-inline-end:"/Users/chaerinlim/Desktop/28days-master/src/pages/mypage/mypage.html"*/,
+            selector: 'page-mypage',template:/*ion-inline-start:"/Users/chaerinlim/Desktop/28days/src/pages/mypage/mypage.html"*/'<!--\n  Generated template for the MychatsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="daysgreen">\n    <ion-title>나의 페이지</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n	<ion-tabs color="daysgreen" tabsPlacement="top">\n	  <ion-tab [root]="tab1" tabTitle="채팅기록"></ion-tab>\n	  <ion-tab [root]="tab2" tabTitle="보관소"></ion-tab>\n	  <ion-tab [root]="tab3" tabTitle="세팅"></ion-tab>\n	</ion-tabs>\n\n</ion-content>\n'/*ion-inline-end:"/Users/chaerinlim/Desktop/28days/src/pages/mypage/mypage.html"*/,
         }),
         __metadata("design:paramtypes", [])
     ], MypagePage);

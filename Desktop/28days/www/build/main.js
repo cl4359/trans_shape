@@ -337,15 +337,15 @@ var map = {
 		29
 	],
 	"../pages/communitygroup/communitygroup.module": [
-		625,
+		627,
 		28
 	],
 	"../pages/communitywrite/communitywrite.module": [
-		626,
+		625,
 		27
 	],
 	"../pages/diary/diary.module": [
-		627,
+		626,
 		26
 	],
 	"../pages/emotionbasket/emotionbasket.module": [
@@ -381,11 +381,11 @@ var map = {
 		1
 	],
 	"../pages/meditate/meditate.module": [
-		636,
+		637,
 		18
 	],
 	"../pages/mychats/mychats.module": [
-		637,
+		636,
 		17
 	],
 	"../pages/mydepository/mydepository.module": [
@@ -405,11 +405,11 @@ var map = {
 		2
 	],
 	"../pages/payment/payment.module": [
-		642,
+		643,
 		13
 	],
 	"../pages/post/post.module": [
-		643,
+		642,
 		12
 	],
 	"../pages/postdetail/postdetail.module": [
@@ -421,11 +421,11 @@ var map = {
 		10
 	],
 	"../pages/requestedchat/requestedchat.module": [
-		646,
+		647,
 		9
 	],
 	"../pages/signup/signup.module": [
-		647,
+		646,
 		0
 	],
 	"../pages/splash/splash.module": [
@@ -1157,9 +1157,9 @@ var AppModule = (function () {
                         { loadChildren: '../pages/character/character.module#CharacterPageModule', name: 'CharacterPage', segment: 'character', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/community/community.module#CommunityPageModule', name: 'CommunityPage', segment: 'community', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/communitycomment/communitycomment.module#CommunitycommentPageModule', name: 'CommunitycommentPage', segment: 'communitycomment', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/communitygroup/communitygroup.module#CommunitygroupPageModule', name: 'CommunitygroupPage', segment: 'communitygroup', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/communitywrite/communitywrite.module#CommunitywritePageModule', name: 'CommunitywritePage', segment: 'communitywrite', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/diary/diary.module#DiaryPageModule', name: 'DiaryPage', segment: 'diary', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/communitygroup/communitygroup.module#CommunitygroupPageModule', name: 'CommunitygroupPage', segment: 'communitygroup', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/emotionbasket/emotionbasket.module#EmotionbasketPageModule', name: 'EmotionbasketPage', segment: 'emotionbasket', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/emotionthrow/emotionthrow.module#EmotionthrowPageModule', name: 'EmotionthrowPage', segment: 'emotionthrow', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/gogohome/gogohome.module#GogohomePageModule', name: 'GogohomePage', segment: 'gogohome', priority: 'low', defaultHistory: [] },
@@ -1168,18 +1168,18 @@ var AppModule = (function () {
                         { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/intro/intro.module#IntroPageModule', name: 'IntroPage', segment: 'intro', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/meditate/meditate.module#MeditatePageModule', name: 'MeditatePage', segment: 'meditate', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/mychats/mychats.module#MychatsPageModule', name: 'MychatsPage', segment: 'mychats', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/meditate/meditate.module#MeditatePageModule', name: 'MeditatePage', segment: 'meditate', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/mydepository/mydepository.module#MydepositoryPageModule', name: 'MydepositoryPage', segment: 'mydepository', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/mypage/mypage.module#MypagePageModule', name: 'MypagePage', segment: 'mypage', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/mysetting/mysetting.module#MysettingPageModule', name: 'MysettingPage', segment: 'mysetting', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/passwordreset/passwordreset.module#PasswordresetPageModule', name: 'PasswordresetPage', segment: 'passwordreset', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/payment/payment.module#PaymentPageModule', name: 'PaymentPage', segment: 'payment', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/post/post.module#PostPageModule', name: 'PostPage', segment: 'post', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/payment/payment.module#PaymentPageModule', name: 'PaymentPage', segment: 'payment', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/postdetail/postdetail.module#PostdetailPageModule', name: 'PostdetailPage', segment: 'postdetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/requestchat/requestchat.module#RequestchatPageModule', name: 'RequestchatPage', segment: 'requestchat', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/requestedchat/requestedchat.module#RequestedchatPageModule', name: 'RequestedchatPage', segment: 'requestedchat', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/requestedchat/requestedchat.module#RequestedchatPageModule', name: 'RequestedchatPage', segment: 'requestedchat', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/splash/splash.module#SplashPageModule', name: 'SplashPage', segment: 'splash', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/supporter/supporter.module#SupporterPageModule', name: 'SupporterPage', segment: 'supporter', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/supporterchat/supporterchat.module#SupporterchatPageModule', name: 'SupporterchatPage', segment: 'supporterchat', priority: 'low', defaultHistory: [] },
@@ -1535,7 +1535,7 @@ var MyApp = (function () {
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/chaerinlim/Desktop/28days-master/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/chaerinlim/Desktop/28days-master/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/chaerinlim/Desktop/28days/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/chaerinlim/Desktop/28days/src/app/app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* Platform */],
             __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */],

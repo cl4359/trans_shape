@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 647:
+/***/ 646:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SignupPageModule", function() { return SignupPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signup__ = __webpack_require__(681);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signup__ = __webpack_require__(680);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -86,7 +86,7 @@ var PasswordValidator = (function () {
 
 /***/ }),
 
-/***/ 681:
+/***/ 680:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -97,7 +97,7 @@ var PasswordValidator = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__ = __webpack_require__(403);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_user_user__ = __webpack_require__(148);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__validators_email__ = __webpack_require__(654);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__validators_match_other_validator__ = __webpack_require__(682);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__validators_match_other_validator__ = __webpack_require__(681);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__validators_password__ = __webpack_require__(655);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_storage__ = __webpack_require__(402);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -218,7 +218,7 @@ var SignupPage = (function () {
     };
     SignupPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-signup',template:/*ion-inline-start:"/Users/chaerinlim/Desktop/28days-master/src/pages/signup/signup.html"*/'<!--\n  Generated template for the SignupPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<<ion-header>\n\n  <ion-navbar color="daysgreen">\n    <ion-title>회원가입</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content class="cardsbg">\n\n	<ion-card>\n    <ion-card-content>\n\n    	<form [formGroup]="signupForm" novalidate>\n    		<h4>이름(별명)</h4>\n        <ion-input formControlName="name" type="text" placeholder="28DAYS (8글자까지 입력)"\n        	[class.invalid]="(!signupForm.controls.name.valid && signupForm.controls.name.dirty) || (signupForm.controls.name.valid && !usernameAvailable)"\n        	(keyup)="checkUsername()"></ion-input>\n      	<p class="error-message" *ngIf="!signupForm.controls.name.valid && signupForm.controls.name.dirty">\n          8글자 이하로 만들어주세요!\n        </p>\n    		<p class="error-message" *ngIf="signupForm.controls.name.valid && !usernameAvailable">\n          이미 사용 중인 이름입니다!\n        </p>\n      	<h4>이메일 주소</h4>\n        <ion-input formControlName="email" type="email" placeholder="28days@gmail.com"\n        	[class.invalid]="!signupForm.controls.email.valid && signupForm.controls.email.dirty"></ion-input>\n      	<p class="error-message" *ngIf="!signupForm.controls.email.valid && signupForm.controls.email.dirty">\n          이메일 주소를 다시 확인해주세요!\n        </p>\n      	<h4>비밀번호</h4>\n        <ion-input formControlName="password" type="password" placeholder="8자리 이상 숫자, 문자 조합"\n        	[class.invalid]="!signupForm.controls.password.valid && signupForm.controls.password.dirty"></ion-input>\n      	<p class="error-message" *ngIf="!signupForm.controls.password.valid && signupForm.controls.password.dirty">\n          8자리 이상, 숫자와 문자를 조합해주세요!\n        </p>\n    		<h4>비밀번호 확인</h4>\n        <ion-input formControlName="passwordconfirm" type="password" placeholder="8자리 이상 숫자, 문자 조합"\n        	[class.invalid]="!signupForm.controls.passwordconfirm.valid && signupForm.controls.passwordconfirm.dirty"></ion-input>\n      	<p class="error-message" *ngIf="!signupForm.controls.passwordconfirm.valid && signupForm.controls.passwordconfirm.dirty">\n          비밀번호가 맞지 않습니다.\n        </p>\n        <h4>성별</h4>\n        <div class="btn2">\n          <button class="btn2_1" [class.greenbtn]="clickmale" (click)="setMale()">\n            남\n          </button>\n          <button [class.greenbtn]="clickfemale" (click)="setFemale()">\n            여\n          </button>\n        </div>\n        <h4>나이</h4>\n        <ion-input formControlName="age" type="number" placeholder="나이를 입력해주세요."></ion-input>\n    		<p class="prompt">28DAYS의 <span>이용약관</span> 및 <span>개인정보취급방침</span>에 동의합니다.</p>\n      	<button ion-button block color="daysgreen" (click)="signupUser()">\n          회원가입하기!\n        </button>\n      </form>\n\n    </ion-card-content>\n  </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/Users/chaerinlim/Desktop/28days-master/src/pages/signup/signup.html"*/,
+            selector: 'page-signup',template:/*ion-inline-start:"/Users/chaerinlim/Desktop/28days/src/pages/signup/signup.html"*/'<!--\n  Generated template for the SignupPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<<ion-header>\n\n  <ion-navbar color="daysgreen">\n    <ion-title>회원가입</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content class="cardsbg">\n\n	<ion-card>\n    <ion-card-content>\n\n    	<form [formGroup]="signupForm" novalidate>\n    		<h4>이름(별명)</h4>\n        <ion-input formControlName="name" type="text" placeholder="28DAYS (8글자까지 입력)"\n        	[class.invalid]="(!signupForm.controls.name.valid && signupForm.controls.name.dirty) || (signupForm.controls.name.valid && !usernameAvailable)"\n        	(keyup)="checkUsername()"></ion-input>\n      	<p class="error-message" *ngIf="!signupForm.controls.name.valid && signupForm.controls.name.dirty">\n          8글자 이하로 만들어주세요!\n        </p>\n    		<p class="error-message" *ngIf="signupForm.controls.name.valid && !usernameAvailable">\n          이미 사용 중인 이름입니다!\n        </p>\n      	<h4>이메일 주소</h4>\n        <ion-input formControlName="email" type="email" placeholder="28days@gmail.com"\n        	[class.invalid]="!signupForm.controls.email.valid && signupForm.controls.email.dirty"></ion-input>\n      	<p class="error-message" *ngIf="!signupForm.controls.email.valid && signupForm.controls.email.dirty">\n          이메일 주소를 다시 확인해주세요!\n        </p>\n      	<h4>비밀번호</h4>\n        <ion-input formControlName="password" type="password" placeholder="8자리 이상 숫자, 문자 조합"\n        	[class.invalid]="!signupForm.controls.password.valid && signupForm.controls.password.dirty"></ion-input>\n      	<p class="error-message" *ngIf="!signupForm.controls.password.valid && signupForm.controls.password.dirty">\n          8자리 이상, 숫자와 문자를 조합해주세요!\n        </p>\n    		<h4>비밀번호 확인</h4>\n        <ion-input formControlName="passwordconfirm" type="password" placeholder="8자리 이상 숫자, 문자 조합"\n        	[class.invalid]="!signupForm.controls.passwordconfirm.valid && signupForm.controls.passwordconfirm.dirty"></ion-input>\n      	<p class="error-message" *ngIf="!signupForm.controls.passwordconfirm.valid && signupForm.controls.passwordconfirm.dirty">\n          비밀번호가 맞지 않습니다.\n        </p>\n        <h4>성별</h4>\n        <div class="btn2">\n          <button class="btn2_1" [class.greenbtn]="clickmale" (click)="setMale()">\n            남\n          </button>\n          <button [class.greenbtn]="clickfemale" (click)="setFemale()">\n            여\n          </button>\n        </div>\n        <h4>나이</h4>\n        <ion-input formControlName="age" type="number" placeholder="나이를 입력해주세요."></ion-input>\n    		<p class="prompt">28DAYS의 <span>이용약관</span> 및 <span>개인정보취급방침</span>에 동의합니다.</p>\n      	<button ion-button block color="daysgreen" (click)="signupUser()">\n          회원가입하기!\n        </button>\n      </form>\n\n    </ion-card-content>\n  </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/Users/chaerinlim/Desktop/28days/src/pages/signup/signup.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__["a" /* AuthProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_user_user__["a" /* UserProvider */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
@@ -231,7 +231,7 @@ var SignupPage = (function () {
 
 /***/ }),
 
-/***/ 682:
+/***/ 681:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

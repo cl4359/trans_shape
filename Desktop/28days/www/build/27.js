@@ -1,6 +1,6 @@
 webpackJsonp([27],{
 
-/***/ 626:
+/***/ 625:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CommunitywritePageModule", function() { return CommunitywritePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__communitywrite__ = __webpack_require__(660);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__communitywrite__ = __webpack_require__(659);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var CommunitywritePageModule = (function () {
 
 /***/ }),
 
-/***/ 660:
+/***/ 659:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -108,7 +108,7 @@ var CommunitywritePage = (function () {
     };
     CommunitywritePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-communitywrite',template:/*ion-inline-start:"/Users/chaerinlim/Desktop/28days-master/src/pages/communitywrite/communitywrite.html"*/'<!--\n  Generated template for the CommunitywritePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="daysgreen">\n    <ion-title>글쓰기</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n	<div class="header">\n		<p class="group">{{ title }}</p>\n		<p class="text">당신의 방식으로 표현해 보세요!</p>\n	</div>\n	<div>\n		<textarea [(ngModel)]="text"></textarea>\n	</div>\n	<div class="imagechooser">\n		<button class="gallery" (click)="openGallery()" *ngIf="!pick">\n			<div>\n				<ion-icon name="camera"></ion-icon>\n				<span>사진 업로드 또는 변경</span>\n			</div>\n		</button>\n		<button class="image" (click)="openGallery()" *ngIf="pick">\n			<img src="{{ fileURL }}">\n		</button>\n	</div>\n</ion-content>\n\n<ion-footer>\n  <button ion-button full color="gray" (click)="write()">글 등록하기</button>\n</ion-footer>\n'/*ion-inline-end:"/Users/chaerinlim/Desktop/28days-master/src/pages/communitywrite/communitywrite.html"*/,
+            selector: 'page-communitywrite',template:/*ion-inline-start:"/Users/chaerinlim/Desktop/28days/src/pages/communitywrite/communitywrite.html"*/'<!--\n  Generated template for the CommunitywritePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="daysgreen">\n    <ion-title>글쓰기</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n	<div class="header">\n		<p class="group">{{ title }}</p>\n		<p class="text">당신의 방식으로 표현해 보세요!</p>\n	</div>\n	<div>\n		<textarea [(ngModel)]="text"></textarea>\n	</div>\n	<div class="imagechooser">\n		<button class="gallery" (click)="openGallery()" *ngIf="!pick">\n			<div>\n				<ion-icon name="camera"></ion-icon>\n				<span>사진 업로드 또는 변경</span>\n			</div>\n		</button>\n		<button class="image" (click)="openGallery()" *ngIf="pick">\n			<img src="{{ fileURL }}">\n		</button>\n	</div>\n</ion-content>\n\n<ion-footer>\n  <button ion-button full color="gray" (click)="write()">글 등록하기</button>\n</ion-footer>\n'/*ion-inline-end:"/Users/chaerinlim/Desktop/28days/src/pages/communitywrite/communitywrite.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_community_community__["a" /* CommunityProvider */],
             __WEBPACK_IMPORTED_MODULE_3__ionic_native_camera__["a" /* Camera */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* LoadingController */]])
