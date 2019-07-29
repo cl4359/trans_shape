@@ -55,8 +55,8 @@ class TransparentObjectLoader(Dataset):
         imgNames = sorted(imgNames)
 
         # access rgb and normal
-        self.imgNames = [osp.join(imageRoot, 'rgb' + x + '.png') for x in imgNames]
-        self.labelNames = [osp.join(labelRoot, 'normal' + x + '.h5') for x in imgNames]
+        self.imgNames = [osp.join(imageRoot, 'rgb_' + x + '.png') for x in imgNames]
+        self.labelNames = [osp.join(labelRoot, 'normal_' + x + '.h5') for x in imgNames]
 
         self.count = len(self.imgNames)
         self.perm = list(range(self.count))
