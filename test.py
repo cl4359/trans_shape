@@ -48,6 +48,9 @@ colormap[1][2] = 255
 imBatch = Variable(torch.FloatTensor(opt.batchSize, 3, 480, 640))
 labelBatch = Variable(torch.FloatTensor(opt.batchSize, 2, 480, 640))
 
+encoder = encoder()
+decoder = decoder()
+
 # if torch.cuda.is_available() and opt.noCuda:
 #     print("WARNING: You have a CUDA device, so you should probably run with --cuda")
     
@@ -215,8 +218,6 @@ def loadPretrainedWeight(network, isOutput = False ):
             break
         cnt += 1
 
-encoder = encoder()
-decoder = decoder()
 # Loads a model’s parameter dictionary
 encoder.load_state_dict(torch.load('%s/encoder_%d.pth' % (opt.modelRoot, opt.nepoch)))
 decoder.load_state_dict(torch.load('%s/decoder_%d.pth' % (opt.modelRoot, opt.nepoch)))

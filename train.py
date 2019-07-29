@@ -42,7 +42,12 @@ labelBatch = Variable(torch.FloatTensor(opt.batchSize, 2, 480, 640))
 
 # if torch.cuda.is_available() and opt.noCuda:
 #     print("WARNING: You have a CUDA device, so you should probably run with --cuda")
-    
+
+encoder = encoder()
+decoder = decoder()
+if opt.isPretrained:
+    loadPretrainedWeight(encoder, isOutput = True )
+
 # Move network and containers to gpu
 if not opt.noCuda:
     imBatch = imBatch.cuda(opt.gpuId)
@@ -207,10 +212,6 @@ def loadPretrainedWeight(network, isOutput = False ):
             break
         cnt += 1
 
-encoder = encoder()
-decoder = decoder()
-if opt.isPretrained:
-	loadPretrainedWeight(encoder, isOutput = True )
 
 # Initialize optimizer
 optEncoder = optim.Adam(encoder.parameters(), lr=opt.initLREncoder, betas=(0.5, 0.999) )
