@@ -43,17 +43,6 @@ labelBatch = Variable(torch.FloatTensor(opt.batchSize, 2, 480, 640))
 # if torch.cuda.is_available() and opt.noCuda:
 #     print("WARNING: You have a CUDA device, so you should probably run with --cuda")
 
-encoder = encoder()
-decoder = decoder()
-if opt.isPretrained:
-    loadPretrainedWeight(encoder, isOutput = True )
-
-# Move network and containers to gpu
-if not opt.noCuda:
-    imBatch = imBatch.cuda(opt.gpuId)
-    encoder = encoder.cuda(opt.gpuId)
-    decoder = decoder.cuda(opt.gpuId)
-
 ############################
 #######Residual block#######
 ############################
@@ -65,11 +54,11 @@ class ResBlock(nn.Module ):
         # stride: the stride of  convolution layer
         super(ResBlock, self).__init__()
 
-        #Like Try-catch. If we don't have a stride of 1 or 2, stops the running. 
+        #Like Try-catch. If we don't have a stride of 1 or 2, stops the running.
         assert(stride == 1 or stride == 2)
 
         #Definition of the resblock architecture. We need 2 convolutional layers, each one with
-        #their respective batch normalization. 
+        #their respective batch normalization.
         self.conv1 = nn.Conv2d(inch, outch, 3, stride, padding = dilation, bias=False,
                 dilation = dilation)
         self.bn1 = nn.BatchNorm2d(outch)
@@ -79,8 +68,8 @@ class ResBlock(nn.Module ):
 
 
         #If the number of the input channels is different as the output channels, the mapping function
-        #is used to do "match" between the sizes.  
-        #Otherwise, the mapping parameter is setting as 'None'. 
+        #is used to do "match" between the sizes.
+        #Otherwise, the mapping parameter is setting as 'None'.
         if inch != outch:
             self.mapping = nn.Sequential(
                         nn.Conv2d(inch, outch, 1, stride, bias=False ),
@@ -90,12 +79,12 @@ class ResBlock(nn.Module ):
             self.mapping = None
 
     def forward(self, x):
-        #We need create a copy of our layer to be added to the result of the resblock. 
+        #We need create a copy of our layer to be added to the result of the resblock.
 
         y = x
         if not self.mapping is None:
             y = self.mapping(y)
- 
+
         #Sequence of the layers
         out = F.relu(self.bn1(self.conv1(x)), inplace=True)
         out = self.bn2(self.conv2(out))
@@ -112,12 +101,12 @@ class ResBlock(nn.Module ):
 class encoder(nn.Module):
     def __init__(self):
         #The enconder is defined by 1 block of convolution, batch normalization and maxpool layers.
-        #The next blocks are Residual Blocks defined above. 
+        #The next blocks are Residual Blocks defined above.
         super(encoder, self ).__init__()
 
         #Conv2d(inch, outch, kernel, stride, padding, bias)
         self.conv1 = nn.Conv2d(3, 64, kernel_size=7, stride=2, padding=3, bias=False)
-        
+
         #Batchnorm with input channels equal as the output of Convolution.
         self.bn1 = nn.BatchNorm2d(64)
         self.maxpool = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
@@ -147,14 +136,14 @@ class encoder(nn.Module):
 ##########Decoder###########
 ############################
 class decoder(nn.Module ):
-    #Decoder is defined by 5 convolutional layers, 4 batch normalization and 1 activation function. 
+    #Decoder is defined by 5 convolutional layers, 4 batch normalization and 1 activation function.
 
     def __init__(self ):
         super(decoder, self).__init__()
         # in_channels, out_channels, kernel_size, stride=1, padding=0
 
         #The Convolutional Transpose layer is the process to resize the image to obtain a large size using
-        #the inverse convolution operation. 
+        #the inverse convolution operation.
 
         #ConvTranspose2d(inch, outch, kernel, stride, padding)
         self.conv1 = nn.ConvTranspose2d(512+256+128, 256, 4, 2, 1)
@@ -212,6 +201,16 @@ def loadPretrainedWeight(network, isOutput = False ):
             break
         cnt += 1
 
+encoder = encoder()
+decoder = decoder()
+if opt.isPretrained:
+    loadPretrainedWeight(encoder, isOutput = True )
+
+# Move network and containers to gpu
+if not opt.noCuda:
+    imBatch = imBatch.cuda(opt.gpuId)
+    encoder = encoder.cuda(opt.gpuId)
+    decoder = decoder.cuda(opt.gpuId)
 
 # Initialize optimizer
 optEncoder = optim.Adam(encoder.parameters(), lr=opt.initLREncoder, betas=(0.5, 0.999) )
