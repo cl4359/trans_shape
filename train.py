@@ -207,10 +207,10 @@ if opt.isPretrained:
     loadPretrainedWeight(encoder, isOutput = True )
 
 # Move network and containers to gpu
-if not opt.noCuda:
-    imBatch = imBatch.cuda(opt.gpuId)
-    encoder = encoder.cuda(opt.gpuId)
-    decoder = decoder.cuda(opt.gpuId)
+# if not opt.noCuda:
+#     imBatch = imBatch.cuda(opt.gpuId)
+#     encoder = encoder.cuda(opt.gpuId)
+#     decoder = decoder.cuda(opt.gpuId)
 
 # Initialize optimizer
 optEncoder = optim.Adam(encoder.parameters(), lr=opt.initLREncoder, betas=(0.5, 0.999) )
