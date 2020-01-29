@@ -1,0 +1,249 @@
+.mediaViewInfo {
+	--web-view-name: Traveling;
+	--web-view-id: Traveling;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Traveling;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Traveling {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Traveling;
+	--web-view-id: Traveling;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes  {
+
+
+}
+#About {
+	position: absolute;
+	left: 1173px;
+	top: 931px;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.Rectangle_31 {
+	position: absolute;
+	overflow: visible;
+	width: 267px;
+	height: 268px;
+	left: 1012px;
+	top: 406px;
+}
+#Component_1___8 {
+	position: absolute;
+	width: 960px;
+	height: 1153px;
+	left: 1px;
+	top: -55px;
+	overflow: visible;
+}
+#Screen_Shot_2017_05_08_at_12_4 {
+	position: absolute;
+	width: 960px;
+	height: 1153px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Traveling_du {
+	position: absolute;
+	left: 369px;
+	top: 511px;
+	overflow: visible;
+	width: 225px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#Quebec__Dec_2019_ {
+	position: absolute;
+	left: 1398px;
+	top: 511px;
+	overflow: visible;
+	width: 109px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: PT Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#Buenos_Aires__Jan_2020___ {
+	position: absolute;
+	left: 1079px;
+	top: 518px;
+	overflow: visible;
+	width: 135px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: PT Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#Blog {
+	position: absolute;
+	left: 378px;
+	top: 925px;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Blog.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#travels {
+	position: absolute;
+	left: 480px;
+	top: 925px;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#research {
+	position: absolute;
+	left: 605px;
+	top: 925px;
+	overflow: visible;
+	width: 126px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Projects___Research.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#About_d {
+	position: absolute;
+	left: 256px;
+	top: 925px;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: About.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#cherry_512 {
+	position: absolute;
+	width: 104.302px;
+	height: 104.302px;
+	left: 1815.239px;
+	top: -0.352px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#IMG_4952 {
+	opacity: 0.508;
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 1013px;
+	top: 406px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Traveling___1.html;
+	cursor: pointer;
+}
+#New_York__Fall_2019_ {
+	position: absolute;
+	left: 1704px;
+	top: 511px;
+	overflow: visible;
+	width: 109px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: PT Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#IMG_1073 {
+	opacity: 0.531;
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 1624px;
+	top: 406px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Traveling___3.html;
+	cursor: pointer;
+}
+#IMG_3211 {
+	opacity: 0.5;
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 1318px;
+	top: 406px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Traveling___2.html;
+	cursor: pointer;
+}

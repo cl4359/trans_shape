@@ -1,0 +1,208 @@
+.mediaViewInfo {
+	--web-view-name: Projects & Research;
+	--web-view-id: Projects___Research;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Projects___Research;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Projects___Research {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Projects & Research;
+	--web-view-id: Projects___Research;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes  {
+
+
+}
+.Path_5 {
+	overflow: visible;
+	position: absolute;
+	width: 960px;
+	height: 1140.844px;
+	left: 960px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Research {
+	position: absolute;
+	left: 1331px;
+	top: 476px;
+	overflow: visible;
+	width: 219px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#cherry_512 {
+	position: absolute;
+	width: 104.302px;
+	height: 104.302px;
+	left: 0.239px;
+	top: -0.352px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Blog {
+	position: absolute;
+	left: 1325px;
+	top: 721px;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Blog.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#travels {
+	position: absolute;
+	left: 1427px;
+	top: 721px;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Traveling.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#research {
+	position: absolute;
+	left: 1552px;
+	top: 721px;
+	overflow: visible;
+	width: 126px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#About {
+	position: absolute;
+	left: 1203px;
+	top: 721px;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: About.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.Ellipse_5 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 19px;
+	left: 52px;
+	top: 306px;
+}
+#Comparing_CNN_Architectures_fo {
+	position: absolute;
+	left: 94px;
+	top: 273px;
+	overflow: hidden;
+	width: 825px;
+	height: 105px;
+	text-align: left;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+	text-decoration: true;
+}
+#ID3D_Reconstruction_of_Transpa {
+	position: absolute;
+	left: 94px;
+	top: 540px;
+	overflow: hidden;
+	width: 825px;
+	height: 44px;
+	text-align: left;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+	text-decoration: true;
+}
+#Copd_Detection_Using_Respirato {
+	position: absolute;
+	left: 94px;
+	top: 760px;
+	overflow: visible;
+	width: 825px;
+	height: 43px;
+	text-align: left;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+	text-decoration: true;
+}
+.Ellipse_6 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 19px;
+	left: 52px;
+	top: 553px;
+}
+.Ellipse_7 {
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	height: 19px;
+	left: 52px;
+	top: 772px;
+}

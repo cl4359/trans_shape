@@ -1,0 +1,372 @@
+.mediaViewInfo {
+	--web-view-name: Traveling – 3;
+	--web-view-id: Traveling___3;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Traveling___3;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Traveling___3 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Traveling – 3;
+	--web-view-id: Traveling___3;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes  {
+
+
+}
+#About {
+	position: absolute;
+	left: 1173px;
+	top: 931px;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#cherry_512 {
+	position: absolute;
+	width: 104.302px;
+	height: 104.302px;
+	left: 1815.239px;
+	top: 975.648px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Traveling.html;
+	cursor: pointer;
+}
+#Repeat_Grid_4 {
+	position: absolute;
+	width: 1714px;
+	height: 862px;
+	left: 103px;
+	top: 109px;
+	overflow: hidden;
+}
+#Repeat_Grid_4_0 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#ID1BC39B2B_EFE0_4AD1_8BFA_E0A7 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_1 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 287px;
+	top: 0px;
+	overflow: visible;
+}
+#IMG_4100 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_2 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 574px;
+	top: 0px;
+	overflow: visible;
+}
+#IMG_3184 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_3 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 861px;
+	top: 0px;
+	overflow: visible;
+}
+#IMG_3184_id {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_4 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 1148px;
+	top: 0px;
+	overflow: visible;
+}
+#IMG_3184_if {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_5 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 1435px;
+	top: 0px;
+	overflow: visible;
+}
+#IMG_3184_ih {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_6 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 288px;
+	overflow: visible;
+}
+#IMG_4100_ij {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_7 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 287px;
+	top: 288px;
+	overflow: visible;
+}
+#IMG_4100_il {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_8 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 574px;
+	top: 288px;
+	overflow: visible;
+}
+#IMG_4100_in {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_9 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 861px;
+	top: 288px;
+	overflow: visible;
+}
+#IMG_4100_ip {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_10 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 1148px;
+	top: 288px;
+	overflow: visible;
+}
+#IMG_4100_ir {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_11 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 1435px;
+	top: 288px;
+	overflow: visible;
+}
+#IMG_4100_it {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_12 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 576px;
+	overflow: visible;
+}
+#IMG_4100_iv {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_13 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 287px;
+	top: 576px;
+	overflow: visible;
+}
+#IMG_4100_ix {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_14 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 574px;
+	top: 576px;
+	overflow: visible;
+}
+#IMG_4100_iz {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_15 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 861px;
+	top: 576px;
+	overflow: visible;
+}
+#IMG_4100_i {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_16 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 1148px;
+	top: 576px;
+	overflow: visible;
+}
+#IMG_4100_ja {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_4_17 {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 1435px;
+	top: 576px;
+	overflow: visible;
+}
+#IMG_4100_jb {
+	position: absolute;
+	width: 267px;
+	height: 268px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#New_York_ {
+	position: absolute;
+	left: 871px;
+	top: 976px;
+	overflow: visible;
+	width: 179px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: PT Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}

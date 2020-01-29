@@ -1,0 +1,818 @@
+.mediaViewInfo {
+	--web-view-name: About;
+	--web-view-id: About;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: About;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#About {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: About;
+	--web-view-id: About;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes  {
+
+
+}
+#Blog {
+	position: absolute;
+	left: 892px;
+	top: 942px;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(247,72,78,1);
+}
+#About_bf {
+	position: absolute;
+	left: 768px;
+	top: 942px;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(247,72,78,1);
+}
+#r {
+	position: absolute;
+	left: 1333px;
+	top: 632px;
+	overflow: visible;
+	width: 16px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: KapookaSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(255,253,253,1);
+}
+.Rectangle_17 {
+	position: absolute;
+	overflow: visible;
+	width: 960px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_6 {
+	width: 447px;
+	height: 570px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,1420.5365,441.594) rotate(1deg);
+	transform-origin: center;
+}
+.Rectangle_5 {
+	width: 334px;
+	height: 396px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,1020.082,514.3406) rotate(0deg);
+	transform-origin: center;
+}
+#About_cq {
+	position: absolute;
+	left: 409px;
+	top: 476px;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#Blog_cr {
+	position: absolute;
+	left: 378px;
+	top: 922px;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Blog.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(8,8,8,1);
+}
+#travels_cs {
+	position: absolute;
+	left: 480px;
+	top: 922px;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Traveling.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(7,7,7,1);
+}
+#Projects_cl {
+	position: absolute;
+	left: 617px;
+	top: 922px;
+	overflow: visible;
+	width: 114px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(15,15,15,1);
+}
+#About_cu {
+	position: absolute;
+	left: 256px;
+	top: 922px;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#IMG_4579_2_c {
+	position: absolute;
+	width: 188.504px;
+	height: 166.179px;
+	left: 857.075px;
+	top: 116.617px;
+	overflow: visible;
+}
+#ID2019_Timeline__Past___I_was_ {
+	transform: matrix(1,0,0,1,1443.6143,475.014) rotate(1deg);
+	transform-origin: center;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 416px;
+	height: 504px;
+	text-align: left;
+	font-family: PT Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#piece_of_tape_png_da {
+	position: absolute;
+	width: 106px;
+	height: 112px;
+	left: 983px;
+	top: 492px;
+	overflow: visible;
+}
+#transparent_tape_png_1_c {
+	position: absolute;
+	width: 113.237px;
+	height: 109.369px;
+	left: 1584.792px;
+	top: 382.796px;
+	overflow: visible;
+}
+#cherry_512_c {
+	position: absolute;
+	width: 104.302px;
+	height: 104.302px;
+	left: 1815.239px;
+	top: -0.352px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#I_am_a_South_Korean_student_ma {
+	position: absolute;
+	left: 1106px;
+	top: 125px;
+	overflow: visible;
+	width: 710px;
+	height: 316px;
+	text-align: left;
+	font-family: PT Serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(5,5,5,1);
+	letter-spacing: 0.1px;
+}
+#Fun_Facts___I_attended_Seoul_N {
+	transform: matrix(1,0,0,1,1049,563) rotate(0deg);
+	transform-origin: center;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	width: 306px;
+	height: 298px;
+	text-align: left;
+	font-family: KapookaSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#piece_of_tape_png_db {
+	position: absolute;
+	width: 106.604px;
+	height: 111.149px;
+	left: 1282.105px;
+	top: 830.257px;
+	overflow: visible;
+}
+#Blog_cr {
+	position: absolute;
+	left: 378px;
+	top: 922px;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Blog.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(8,8,8,1);
+}
+#travels_cs {
+	position: absolute;
+	left: 480px;
+	top: 922px;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Traveling.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(7,7,7,1);
+}
+#Projects_cl {
+	position: absolute;
+	left: 617px;
+	top: 922px;
+	overflow: visible;
+	width: 114px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(15,15,15,1);
+}
+#About_cu {
+	position: absolute;
+	left: 256px;
+	top: 922px;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+.Rectangle_19 {
+	width: 447px;
+	height: 570px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,1420.5365,441.594) rotate(1deg);
+	transform-origin: center;
+}
+.Rectangle_20 {
+	width: 334px;
+	height: 396px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,1020.082,514.3406) rotate(0deg);
+	transform-origin: center;
+}
+#Component_4___1 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_2 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+#Repeat_Grid_2_0 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_2___2 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#About_cq {
+	position: absolute;
+	left: 409px;
+	top: 476px;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#Blog_cr {
+	position: absolute;
+	left: 378px;
+	top: 922px;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Blog.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(8,8,8,1);
+}
+#travels_cs {
+	position: absolute;
+	left: 480px;
+	top: 922px;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Traveling.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(7,7,7,1);
+}
+#Projects_cl {
+	position: absolute;
+	left: 617px;
+	top: 922px;
+	overflow: visible;
+	width: 114px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(15,15,15,1);
+}
+#About_cu {
+	position: absolute;
+	left: 256px;
+	top: 922px;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#IMG_4579_2_c {
+	position: absolute;
+	width: 188.504px;
+	height: 166.179px;
+	left: 857.075px;
+	top: 116.617px;
+	overflow: visible;
+}
+#piece_of_tape_png_da {
+	position: absolute;
+	width: 106px;
+	height: 112px;
+	left: 983px;
+	top: 492px;
+	overflow: visible;
+}
+#transparent_tape_png_1_c {
+	position: absolute;
+	width: 113.237px;
+	height: 109.369px;
+	left: 1584.792px;
+	top: 382.796px;
+	overflow: visible;
+}
+#cherry_512_c {
+	position: absolute;
+	width: 104.302px;
+	height: 104.302px;
+	left: 1815.239px;
+	top: -0.352px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#I_am_a_South_Korean_student_ma_ch {
+	position: absolute;
+	left: 1106px;
+	top: 90px;
+	overflow: visible;
+	width: 710px;
+	height: 308px;
+	text-align: left;
+	font-family: PT Serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(5,5,5,1);
+	letter-spacing: 0.1px;
+}
+#piece_of_tape_png_db {
+	position: absolute;
+	width: 106.604px;
+	height: 111.149px;
+	left: 1282.105px;
+	top: 830.257px;
+	overflow: visible;
+}
+#Blog_cr {
+	position: absolute;
+	left: 378px;
+	top: 922px;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Blog.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(8,8,8,1);
+}
+#travels_cs {
+	position: absolute;
+	left: 480px;
+	top: 922px;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Traveling.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(7,7,7,1);
+}
+#Projects_cl {
+	position: absolute;
+	left: 617px;
+	top: 922px;
+	overflow: visible;
+	width: 114px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(15,15,15,1);
+}
+#About_cu {
+	position: absolute;
+	left: 256px;
+	top: 922px;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+.Rectangle_22 {
+	position: absolute;
+	overflow: visible;
+	width: 960px;
+	height: 1120px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_23 {
+	width: 447px;
+	height: 570px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,1417.5365,441.594) rotate(1deg);
+	transform-origin: center;
+}
+.Rectangle_24 {
+	width: 334px;
+	height: 467px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,1014.082,514.3406) rotate(0deg);
+	transform-origin: center;
+}
+#About_cq {
+	position: absolute;
+	left: 409px;
+	top: 476px;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#Blog_cr {
+	position: absolute;
+	left: 378px;
+	top: 922px;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Blog.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(8,8,8,1);
+}
+#travels_cs {
+	position: absolute;
+	left: 480px;
+	top: 922px;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Traveling.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(7,7,7,1);
+}
+#Research {
+	position: absolute;
+	left: 605px;
+	top: 922px;
+	overflow: visible;
+	width: 126px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Projects___Research.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(15,15,15,1);
+}
+#About_cu {
+	position: absolute;
+	left: 256px;
+	top: 922px;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#IMG_4579_2_c {
+	position: absolute;
+	width: 188.504px;
+	height: 166.179px;
+	left: 857.075px;
+	top: 116.617px;
+	overflow: visible;
+}
+#ID2019_20_Timeline__Spring_201 {
+	transform: matrix(1,0,0,1,1443.4485,466.0126) rotate(1deg);
+	transform-origin: center;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	width: 416px;
+	height: 523px;
+	text-align: left;
+	font-family: PT Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#piece_of_tape_png_da {
+	position: absolute;
+	width: 106px;
+	height: 112px;
+	left: 983px;
+	top: 492px;
+	overflow: visible;
+}
+#transparent_tape_png_1_c {
+	position: absolute;
+	width: 113.237px;
+	height: 109.369px;
+	left: 1584.792px;
+	top: 382.796px;
+	overflow: visible;
+}
+#cherry_512_c {
+	position: absolute;
+	width: 104.302px;
+	height: 104.302px;
+	left: 1815.239px;
+	top: -0.352px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#piece_of_tape_png_db {
+	position: absolute;
+	width: 106.604px;
+	height: 111.149px;
+	left: 1282.105px;
+	top: 830.257px;
+	overflow: visible;
+}
+#IMG_4579_2_c {
+	position: absolute;
+	width: 188.504px;
+	height: 166.179px;
+	left: 857.075px;
+	top: 116.617px;
+	overflow: visible;
+}
+#piece_of_tape_png_da {
+	position: absolute;
+	width: 106px;
+	height: 112px;
+	left: 983px;
+	top: 492px;
+	overflow: visible;
+}
+#transparent_tape_png_1_c {
+	position: absolute;
+	width: 113.237px;
+	height: 109.369px;
+	left: 1584.792px;
+	top: 382.796px;
+	overflow: visible;
+}
+#cherry_512_c {
+	position: absolute;
+	width: 104.302px;
+	height: 104.302px;
+	left: 1815.239px;
+	top: -0.352px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Fun_Facts___I_attended_Seoul_N_c {
+	transform: matrix(1,0,0,1,1035,563) rotate(0deg);
+	transform-origin: center;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	width: 306px;
+	height: 347px;
+	text-align: left;
+	font-family: KapookaSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#piece_of_tape_png_db {
+	position: absolute;
+	width: 106.604px;
+	height: 111.149px;
+	left: 1282.105px;
+	top: 830.257px;
+	overflow: visible;
+}

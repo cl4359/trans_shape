@@ -1,0 +1,229 @@
+.mediaViewInfo {
+	--web-view-name: Blog;
+	--web-view-id: Blog;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Blog;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Blog {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Blog;
+	--web-view-id: Blog;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes  {
+
+
+}
+#Line_1 {
+	opacity: 0.379;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 814px;
+	height: 3px;
+	left: 611.5px;
+	top: 612.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_9 {
+	opacity: 0.379;
+}
+.Line_9 {
+	overflow: visible;
+	position: absolute;
+	width: 814px;
+	height: 3px;
+	left: 611.5px;
+	top: 612.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#A_traveler__programmer__resear {
+	position: absolute;
+	left: 659px;
+	top: 632px;
+	overflow: visible;
+	width: 720px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: KapookaSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(255,253,253,1);
+}
+#r {
+	position: absolute;
+	left: 1363px;
+	top: 632px;
+	overflow: visible;
+	width: 16px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: KapookaSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(255,253,253,1);
+}
+#Component_1___6 {
+	position: absolute;
+	width: 960px;
+	height: 1129px;
+	left: 960px;
+	top: 0px;
+	overflow: visible;
+}
+#IMG_6633 {
+	position: absolute;
+	width: 960px;
+	height: 1129px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#hack_into_my_brain_to_access__ {
+	position: absolute;
+	left: 88px;
+	top: 618px;
+	overflow: visible;
+	width: 825px;
+	height: 462px;
+	text-align: center;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#ID624997_200 {
+	position: absolute;
+	width: 251px;
+	height: 243px;
+	left: 374px;
+	top: 364px;
+	overflow: visible;
+}
+#Untitled {
+	opacity: 0.995;
+	position: absolute;
+	width: 327px;
+	height: 272px;
+	left: 336px;
+	top: 307px;
+	overflow: visible;
+}
+#Blog_di {
+	position: absolute;
+	left: 1387px;
+	top: 508px;
+	overflow: visible;
+	width: 108px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#Blog_dj {
+	position: absolute;
+	left: 1336px;
+	top: 919px;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#travels {
+	position: absolute;
+	left: 1438px;
+	top: 919px;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Traveling.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#Research {
+	position: absolute;
+	left: 1563px;
+	top: 919px;
+	overflow: visible;
+	width: 126px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Projects___Research.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#About {
+	position: absolute;
+	left: 1214px;
+	top: 919px;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: About.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#cherry_512 {
+	position: absolute;
+	width: 104.302px;
+	height: 104.302px;
+	left: 0.239px;
+	top: -0.352px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}

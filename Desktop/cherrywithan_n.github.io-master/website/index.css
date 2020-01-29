@@ -1,0 +1,324 @@
+.mediaViewInfo {
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: index;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#index {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes  {
+
+
+}
+#Component_3___1 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Repeat_Grid_1 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+#Repeat_Grid_1_0 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_2___1 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#ID154_512 {
+	position: absolute;
+	width: 1089px;
+	height: 1089px;
+	left: 409px;
+	top: 11px;
+	overflow: visible;
+}
+#Line_1 {
+	opacity: 0.379;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 814px;
+	height: 3px;
+	left: 553.5px;
+	top: 612.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_9 {
+	opacity: 0.379;
+}
+.Line_9 {
+	overflow: visible;
+	position: absolute;
+	width: 814px;
+	height: 3px;
+	left: 553.5px;
+	top: 612.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Welcome {
+	position: absolute;
+	left: 876px;
+	top: 65px;
+	overflow: visible;
+	width: 169px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(247,72,78,1);
+}
+#Blog {
+	position: absolute;
+	left: 864px;
+	top: 942px;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Blog.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(247,72,78,1);
+}
+#Travels {
+	position: absolute;
+	left: 968px;
+	top: 942px;
+	overflow: visible;
+	width: 99px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Traveling.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(247,72,78,1);
+}
+#Research {
+	position: absolute;
+	left: 1096px;
+	top: 942px;
+	overflow: visible;
+	width: 126px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Projects___Research.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(247,72,78,1);
+}
+#About {
+	position: absolute;
+	left: 740px;
+	top: 942px;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: About.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(247,72,78,1);
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 555.817px;
+	height: 465.817px;
+	left: 0.5px;
+	top: 612.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	width: 555.818px;
+	height: 470.819px;
+	left: 1367.5px;
+	top: 612.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Line_7 {
+	overflow: visible;
+	position: absolute;
+	width: 468.818px;
+	height: 394.818px;
+	left: 643.5px;
+	top: 0.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 510.316px;
+	height: 425.817px;
+	left: 776px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Chaerin_Lim {
+	position: absolute;
+	left: 592px;
+	top: 332px;
+	overflow: visible;
+	width: 737px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 250px;
+	color: rgba(255,253,253,1);
+}
+#A_traveler__programmer__resear {
+	position: absolute;
+	left: 601px;
+	top: 632px;
+	overflow: visible;
+	width: 720px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: KapookaSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(255,253,253,1);
+}
+#r {
+	position: absolute;
+	left: 1305px;
+	top: 632px;
+	overflow: visible;
+	width: 16px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: KapookaSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(255,253,253,1);
+}
+#Ellipse_1 {
+	opacity: 0.669;
+}
+.Ellipse_1 {
+	width: 101px;
+	height: 104px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,875.9848,338.8725) rotate(92deg);
+	transform-origin: center;
+}
+#Ellipse_3 {
+	opacity: 0.669;
+}
+.Ellipse_3 {
+	width: 101px;
+	height: 104px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,875.9848,338.8725) rotate(92deg);
+	transform-origin: center;
+}
+.Ellipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 18px;
+	height: 20px;
+	left: 773px;
+	top: 413px;
+}
+.Ellipse_4 {
+	position: absolute;
+	overflow: visible;
+	width: 18px;
+	height: 20px;
+	left: 773px;
+	top: 413px;
+}
+#Made_by_Chaerin_Lim {
+	position: absolute;
+	left: 548px;
+	top: 1021px;
+	overflow: visible;
+	width: 825px;
+	height: 59px;
+	text-align: center;
+	font-family: Gabriela;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
