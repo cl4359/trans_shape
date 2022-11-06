@@ -14,7 +14,7 @@
     "express": "^4.16.2",
     "nodemon": "^1.12.5",
     "request": "^2.47.0",
-    "semantic-ui": "^2.2.14",
+    "semantic-ui": "^2.5.0",
     "serve-favicon": "^2.2.0",
     "socket.io": "^1.2.1",
     "typed.js": "^2.0.6",
